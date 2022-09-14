@@ -1,0 +1,416 @@
+
+@font-face {
+  font-family:Inter;
+  src: url(./fonts/inter/Inter-Regular.otf);
+}
+
+*{
+  margin: 0;
+
+
+}
+
+nav{
+  display: flex;
+  margin: auto;
+
+  padding: 30px 8%;
+  justify-content: space-between;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+#home {
+  text-decoration: none;
+  color: #DEDEDE;
+
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 50px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #DEDEDE;
+  }
+
+
+#me_introduction{
+  font-style: bold;
+}
+
+.homepage{
+  background-color: #00071F;
+  background-image: url(./image/Groupbackground.png);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.texting1{
+  color: #FFFFFF;
+  font-family: 'Poppins',sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.homepage .my_text {
+  width: 370px;
+  margin: 20px auto;
+  margin-right: 43%;
+  border-radius: 30px;
+  background: #00CE47;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  padding-left: 45px;
+  position: relative;
+}
+
+.homepage .other_text {
+  width: 180px;
+  margin: 20px 12%;
+  border-radius: 30px;
+  background: #0980FE;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  padding-left: 45px;
+  position: relative;
+}
+
+.homepage .sb2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #00CE47;
+  border-right: 20px solid transparent;
+  border-top: 15px solid #00CE47;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+.homepage .sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 34px solid transparent;
+  border-right: 20px solid #0980FE;
+  border-top: 20px solid #0980FE;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+.homepage .texting1 .firsto {
+  margin-top: 150px;
+}
+
+.homepage .firstm{
+  width: 230px;
+  font-size: 30px;
+}
+
+.homepage .secondm{
+  width: 270px;
+}
+
+
+.mywork{
+  background-color: #FBFBFB;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+.mywork a{
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  display: flex;
+}
+
+#img{
+  height: 270px;
+  width: auto;
+  padding-left: 12px;
+}
+
+
+.mywork .card {
+  background: #FFFFFF;
+  height: 280px;
+  max-width: auto;
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  padding: 25px;
+  padding-right: 4%;
+  border-radius: 8px;
+  box-shadow: 0px 2px 20px rgba(0,0,0,0.1);
+}
+
+.mywork h1{
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-top: 0px;
+  padding-top: 70px;
+  margin-left:15%;
+}
+
+.mywork h2{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding-left: 80px;
+  padding-top: 120px;
+}
+
+
+.mywork p{
+  font-family:'Helvetica', regular;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+
+.mywork .content{
+  flex:1;
+}
+
+
+
+.aboutme{
+  background-color: #00071F;
+  color: white;
+  background-image:url(./image/elipse.png);
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.aboutme h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 2em;
+  padding-left: 80px;
+  padding-top: 120px;
+  margin-left:15%;
+  margin-bottom: 7%;
+}
+
+
+
+.aboutme .my_text {
+  width: 40%;
+  margin: 20px auto;
+  margin-right: 10%;
+  border-radius: 30px;
+  background: #00CE47;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  padding-left: 45px;
+  font-size: 22px;
+  position: relative;
+}
+
+.aboutme .other_text {
+  width: 15%;
+  margin: 20px 12%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+  border-radius: 30px;
+  background: #0980FE;
+  color: #fff;
+  padding: 15px;
+  text-align: left;
+  font-size: 22px;
+  padding-left: 45px;
+  position: relative;
+}
+
+.aboutme .sb2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #00CE47;
+  border-right: 20px solid transparent;
+  border-top: 15px solid #00CE47;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+.aboutme .sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 34px solid transparent;
+  border-right: 20px solid #0980FE;
+  border-top: 20px solid #0980FE;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+
+.aboutme .firstme{
+  width: 50%;
+}
+
+.aboutme .thirdme{
+  margin-bottom: 3%;
+}
+
+
+.hobbies{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutme h3{
+  font-family: 'Inter';
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 10%;
+}
+
+.content p{
+  font-family: 'Inter';
+  font-size: 16px;
+
+}
+
+.hobbies .content {
+  padding: 30px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+.hobbies .surf{
+  padding-left: 10%;
+
+}
+
+.hobbies .friends{
+  padding-right: 10%;
+}
+
+
+
+.surf h3{
+background: #06394E;
+text-align: center;
+border-radius: 9px;
+
+}
+
+.draw h3{
+background: #37264A;
+text-align: center;
+border-radius: 9px;
+}
+
+.write h3{
+background: #153E2D;
+text-align: center;
+border-radius: 9px;
+}
+
+.travel h3{
+background: #363D1A;
+text-align: center;
+border-radius: 9px;
+}
+
+.friends h3{
+background: #362235;
+text-align: center;
+border-radius: 9px;
+}
+
+#text_hobbies{
+  text-align: left;
+}
+
+
+
+#CVbutton {
+  background: black;
+  color: #DDFFFF;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #DDFFFF;
+   display: inline-block;
+  border-radius: 20px;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+.buttoncv{
+display: grid;
+margin-left: 37%;
+margin-right: 40%;
+padding-bottom: 160px;
+}
+
+
+.contact{
+  background-color: #FBFBFB;
+  justify-content: space-between;
+
+}
+
+.contact h1{
+font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2em;
+padding-left: 80px;
+padding-top: 120px;
+margin-left:37%;
+margin-bottom: 7%;
+}
+
+
+.texting{
+  font-family: 'Helvetica Neue';
+  font-weight: normal;
+  font-size: 27px;
+}
+
+.texting{
+
+  background-image: url(./image/me1.png);
+  background-position: bottom left;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#imgcont{
+  height: 100px;
+  width: auto;
+}
+
+.mailimg{
+margin-left: 30%;
+margin-right: 300px;
+}
+
+.linkedimg{
+margin-right: 20%;
+}
+
+.imagescont{
+  padding-bottom: 150px;
+}
